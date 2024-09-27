@@ -154,3 +154,24 @@ li:hover .logo{
 		transform:translateX(2000px);
 	}
 }
+/* Стилі для телефонів із шириною екрану до 768px */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Зміна розміру шрифтів */
+  }
+  
+  .container {
+    width: 100%; /* Контейнер на всю ширину екрану */
+    padding: 10px; /* Внутрішній відступ */
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column; /* Вертикальна навігація замість горизонтальної */
+  }
+
+  .image {
+    width: 100%; /* Зображення на всю ширину екрану */
+    height: auto;
+  }
+}
